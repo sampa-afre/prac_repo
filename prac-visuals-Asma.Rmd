@@ -1,0 +1,56 @@
+---
+title: "visuals-Asma"
+author: "Asma Sampa"
+date: "2024-02-06"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+## class 9: 6 february
+
+### Packages we'll use for today's examples:
+  
+```{r}
+pacman::p_load(dslabs, gapminder, tidyverse)
+```
+
+###Additional packages if you want to replicate the plots in the "Principles of Data Visualization" section:
+
+```{r}
+pacman::p_load(ggrepel, readxl)
+```
+
+
+
+
+
+
+
+
+
+
+
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
